@@ -1,11 +1,11 @@
 <template>
   <div class="container-fluid">
     <div class="col p-2">
-      <form @submit.prevent="getSpacePic()" class="bg-white rounded elevation-1">
-        <div class=" d-flex form-group align-items-center">
-          <input type="date" class="form-control bg-white border-0" v-model="state.date">
+      <form @submit.prevent="getSpacePic()" class="bgdk text-light rounded elevation-1">
+        <div class=" d-flex form-group align-items-center ">
+          <input type="date" class="form-control bgdk text-light border-0" v-model="state.date">
           <button class="btn px-2 py-0" type="submit">
-            <i class="mdi mdi-card-search f-18"></i>
+            <i class="mdi mdi-card-search text-light f-18"></i>
           </button>
         </div>
       </form>
@@ -39,3 +39,10 @@ export default {
   }
 }
 </script>
+
+<style>
+.bgdk {
+  background-color: rgb(105, 105, 105);
+}
+
+</style>

@@ -1,22 +1,24 @@
 <template>
-  <div class="card p-0 m-2 bg-dark text-light border-0" style="width: 50vw;">
-    <img :src="apod.img" class="m-0">
+  <div class="card p-0 m-2 bgdk text-light border-0" style="width: 50vw;">
+    <img :src="apod.img" class="m-0 rounded-top">
     <div class="body">
-      <h5 class="title p-2">
+      <h5 class="title p-2 text-center">
         {{ apod.title }}
       </h5>
+    </div>
+    <div class="col">
       <p class="text p-2">
         {{ apod.description }}
       </p>
+      <ul class="list-group  list-group-flush">
+        <li class="list-group-item bgdk text-light">
+          From: {{ apod.author }}
+        </li>
+        <li class="list-group-item bgdk text-light">
+          Date: {{ apod.date }}
+        </li>
+      </ul>
     </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">
-        From: {{ apod.author }}
-      </li>
-      <li class="list-group-item">
-        Date: {{ apod.date }}
-      </li>
-    </ul>
   </div>
 </template>
 
@@ -36,3 +38,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.bgimage{
+  background-image: url("apod.img")
+}
+</style>
