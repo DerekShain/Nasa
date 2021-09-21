@@ -12,7 +12,7 @@
       </p>
       <ul class="list-group  list-group-flush">
         <li class="list-group-item bgdk text-light">
-          From: {{ apod.author }}
+          Image Credit and Copyright: {{ apod.author }}
         </li>
         <li class="list-group-item bgdk text-light">
           Date: {{ apod.date }}
