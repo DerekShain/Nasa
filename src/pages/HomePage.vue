@@ -1,9 +1,11 @@
 <template>
   <div class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center">
-    <div class="home-card p-5 bg-white rounded elevation-1">
-      <img src="https://bcw.blob.core.windows.net/public/img/8600856373152463" alt="CodeWorks Logo" class="rounded-circle elevation-4">
+    <div class="home-card p-5 bgdk2 rounded elevation-3">
+      <img src="../assets/img/astronaut.png" alt="CodeWorks Logo" class="rounded-circle elevation-4">
       <h1 class="my-5 bg-dark text-white p-3 rounded text-center">
-        Welcome! Click the Calendar find an awesome space picture!
+        Welcome!<br />
+        <small>Click the calender to see some awesome space pictures!<small>
+        </small></small>
       </h1>
     </div>
   </div>
@@ -22,6 +24,7 @@ export default {
   place-content: center;
   text-align: center;
   user-select: none;
+  background-color: rgb(30, 28, 63);
   .home-card{
     width: 50vw;
     > img{
@@ -29,5 +32,9 @@ export default {
       width: 200px;
     }
   }
+.bgdk2 {
+  background-color: rgb(23, 22, 49);
 }
+}
+
 </style>

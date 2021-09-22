@@ -1,0 +1,10 @@
+{"Vue Template": {
+  "prefix": "vt",
+  "body": [
+    "<template>\n\t<div class=\"${1:component}\">\n\n\n\t</div>\n</template>\n\n",
+    "<script>\nexport default {\n name:'',\n\tsetup(){\n\t\treturn {}\n\t}\n}\n</script>\n\n",
+    "<style lang=\"scss\" scoped>\n\n</style>"
+  ],
+  "description": "A simple vue template builder"
+},
+}

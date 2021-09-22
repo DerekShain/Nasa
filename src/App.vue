@@ -2,12 +2,12 @@
   <header>
     <Navbar />
   </header>
-  <main class="bg-dark">
+  <main class="bgdk">
     <router-view />
   </main>
   <footer>
-    <div class="bg-dark text-light text-center p-4">
-      Made with 💖 by CodeWorks
+    <div class="bgdk text-light text-center p-4">
+      D. Shain
     </div>
   </footer>
 </template>
